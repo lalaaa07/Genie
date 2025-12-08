@@ -15,3 +15,7 @@ Genie is an AI/ML based text analyser and corrector with grammar check, spelling
 - **scikit-learn** – For preprocessing and potential feature engineering during model training.
 - **Pandas & NumPy** – Data handling and manipulation during development.
 - **NLTK (Natural Language Toolkit)** – Text preprocessing and linguistic analysis  
+
+## Login info
+- username: admin
+- password: 1234
