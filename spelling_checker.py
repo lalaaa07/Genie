@@ -12,14 +12,12 @@ def closest_words(word, word_list):
 
 
 def spell_check(in_text):
-    # Load dictionary properly
     with open('words_final.txt', 'r') as f:
         words = [w.strip().lower() for w in f if w.strip()]
 
     highlighted = ""
     final_sen = []
-
-    # Tokenize
+    #Tokenizes
     tokens = word_tokenize(in_text)
 
     for word in tokens:
